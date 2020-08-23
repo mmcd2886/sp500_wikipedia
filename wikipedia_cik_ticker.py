@@ -28,20 +28,3 @@ dfTicker.to_csv(r'path_to_csv', header=False, index=False)
 #extract the CIK number from the csv file and output to csv. Remove the header 'CIK' and the index which numbers the rows
 dfCIK = pd.read_csv("path_to_csv", usecols=[8])
 dfCIK.to_csv(r'path_to_csv', header=False, index=False)
-
-
-
-
-# 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
